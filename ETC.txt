@@ -1,0 +1,13 @@
+formnew.report_name = request.POST.get('report_name')
+            formnew.report_description = request.POST.get('report_description')
+            formnew.section_name = request.POST.get('section_name')
+            formnew.section_name1 = request.POST.get('section_name1')
+            formnew.section_name2 = request.POST.get('section_name2')
+            formnew.description = request.POST.get('description')
+            formnew.description1 = request.POST.get('description1')
+            formnew.description2 = request.POST.get('description2')
+            formnew.post_image = request.POST.get('post_image')
+            formnew.post_image1 = request.POST.get('post_image1')
+            formnew.post_image2 = request.POST.get('post_image2')
+            formnew.posted_by = request.user
+            formnew.save()
