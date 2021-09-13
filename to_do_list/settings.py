@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'blog_posts',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD':'Evildead@11',
+        'PASSWORD':'root',
         'POST': 3306,
     }
 }
